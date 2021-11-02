@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 600px;
+    border: 1px solid grey;
+    height: 420px;
+    padding: 10px;
+}
+.tabs-container{
+    border: 1px solid grey;
+    height: 200px;
+}
+.tab-header__elements{
+    display: flex;
+    border: 1px solid grey;
+}
+.tab-header__element{
+    cursor: pointer;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 12px;
+    border: 1px solid grey;
+}
+.tab-header__element.active{
+    background: cadetblue;
+}

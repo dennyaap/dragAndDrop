@@ -1,0 +1,94 @@
+*{
+    font-family: Arial, serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+    padding: 35px;
+}
+.tasks{
+    margin: 0 auto;
+    width: 600px;
+}
+.tasks-container{
+    display: flex;
+    justify-content: space-between;
+}
+.tasksContainer{
+    width: 270px;
+    color: rgb(81, 81, 92);
+    border: 1px solid rgb(114, 116, 226);
+}
+.titleTasks{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    background: rgb(114, 116, 226);
+    padding: 15px;
+}
+.tasksInfo{
+    padding: 15px;
+}
+.task{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin: 0px 0px 15px 0px;
+}
+
+.currentTask{
+    background: rgb(234, 235, 255);
+}
+.currentTask:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.completedTask{
+    background: rgb(209, 252, 220);
+}
+.completedTasks{
+    min-height: 200px;
+}
+
+.taskPlanning{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+.taskPlanning-Container{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 1px solid rgb(114, 116, 226);
+}
+#btnPlanning{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+#btnPlanning img{
+    display: flex;
+    width: 30px;
+}
+
+#nameTask{
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+.drag-enter{
+    background: rgb(209, 252, 220);
+}
+#status{
+    width: 270px;
+    text-align: center;
+    color: rgb(200, 144, 144);
+}

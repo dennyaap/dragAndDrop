@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: rgb(223, 117, 107);
+}
+main{
+    margin: 0 auto;
+    width: 400px;
+    padding: 15px;
+}
+.redBlockContainer{
+    border-radius: 10px;
+    background: rgb(223, 117, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 15px;
+    
+}
+#white{
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+}
+.drop-zone{
+    background: rgb(115, 107, 223);
+}
+.green-zone{
+    background: rgb(107, 223, 126);
+}
