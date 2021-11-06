@@ -44,7 +44,6 @@ function dragstart(e){
 }
 function dragend(e){
     e.target.style.display = '';
-    e.target.classList.add('completedTask');
 }
 
 let zone = document.querySelector('.completedTasks');
@@ -68,6 +67,8 @@ function dragover(e){
 function dragdrop(e){
     e.preventDefault();
     zone.classList.remove('drag-enter');
+
+    element.classList.add('completedTask');
 
     zone.append(element);
 }
