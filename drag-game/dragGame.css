@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    /* background: url('https://swall.teahub.io/photos/small/248-2482943_blue-flowers-bokeh-photography-nature-bokeh-photo-effect.jpg');
+     */
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    ;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 750px;
+}
+.animals{
+    padding: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, minmax(80px, 120px));
+}
+.animal{
+    cursor: grab;
+    display: flex;
+    padding: 10px;
+    height: 120px;
+    border-bottom: 3px solid rgb(184, 198, 226);
+    background: rgb(223, 229, 241);
+}
+.animal:hover{
+    background: rgb(217, 243, 222);
+}
+.animal-img{
+    width: 100%;
+}
+.cells{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(80px, 120px));
+    gap: 15px;
+    padding: 15px;
+    justify-content: space-between;
+    width: 540px;
+}
+.cell{
+    padding: 10px;
+    border-bottom: 3px solid rgb(238, 207, 216);
+    background: rgb(255, 234, 243);
+    height: 120px;
+}
+.info > h1{
+    color: rgb(129, 148, 187);
+}
+.green{
+    background: rgb(217, 243, 222);
+}
+#btn-reload{
+    display: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(129, 148, 187);
+    padding: 15px;
+}
+#btn-reload:hover{
+    background: rgb(121, 211, 139);
+}
+#btn-reload.active{
+    display: block;
+}

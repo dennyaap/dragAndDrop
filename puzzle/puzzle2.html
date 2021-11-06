@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+
+    <link rel="stylesheet" href="css/puzzle2.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="main-image__countainer">
+                <h1 id="status">Соберите пазл</h1>
+                <div class="main-image"><img src="puzzle-images/womansunset.jfif" alt=""></div>
+                <div class="button">
+                    <button id="btn-reload">Начать заново</button>
+                </div>
+            </div>
+            <div class="puzzle">
+                <div class="puzzle-container">
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-4" src="puzzle-images/puzzle4.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-5" src="puzzle-images/puzzle5.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-8" src="puzzle-images/puzzle8.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-9" src="puzzle-images/puzzle9.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-1" src="puzzle-images/puzzle1.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-2" src="puzzle-images/puzzle2.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-3" src="puzzle-images/puzzle3.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-6" src="puzzle-images/puzzle6.png" alt="puzzle"></div>
+                    <div class="puzzle-cell"><img class="puzzle" data-target="p-7" src="puzzle-images/puzzle7.png" alt="puzzle"></div>
+                </div>
+                <div class="completed-puzzle__container">
+                    <div class="zone" id="p-1"></div>
+                    <div class="zone" id="p-2"></div>
+                    <div class="zone" id="p-3"></div>
+                    <div class="zone" id="p-4"></div>
+                    <div class="zone" id="p-5"></div>
+                    <div class="zone" id="p-6"></div>
+                    <div class="zone" id="p-7"></div>
+                    <div class="zone" id="p-8"></div>
+                    <div class="zone" id="p-9"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/puzzle2.js"></script>
+</body>
+</html>

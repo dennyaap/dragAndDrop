@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="dragGame.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="info">
+                <h1 id="target-info">Найди хищников и перетащи их в клетки!</h1>
+            </div>
+
+            <div class="animals">
+                <div class="animal">
+                    <img src="animal-images/bear.png" alt="bear" class="animal-img" data-role="predator">
+                </div>
+                <div class="animal">
+                    <img src="animal-images/crocodile.png" alt="crocodile" class="animal-img" data-role="predator">
+                </div>
+                <div class="animal">
+                    <img src="animal-images/elephant.png" alt="elephant" class="animal-img">
+                </div>
+                <div class="animal">
+                    <img src="animal-images/hippopotamus.png" alt="hipopotanus" class="animal-img" data-role="predator">
+                </div>
+                <div class="animal">
+                    <img src="animal-images/lion.png" alt="lion" class="animal-img" data-role="predator">
+                </div>
+                <div class="animal">
+                    <img src="animal-images/pig.png" alt="pig" class="animal-img" data-role="predator">
+                </div>
+                <div class="animal">
+                    <img src="animal-images/rabbit.png" alt="rabbit" class="animal-img">
+                </div>
+                <div class="animal">
+                    <img src="animal-images/tiger.png" alt="tiger" class="animal-img" data-role="predator">
+                </div>
+            </div>
+
+            <div class="cells">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+
+            <div class="button">
+                <button id="btn-reload">Начать заново</button>
+            </div>
+        </div>
+    </main>
+    <script src="dragGame.js"></script>
+</body>
+</html>

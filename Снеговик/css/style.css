@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #175996;
+}
+
+[draggable] {
+  cursor: move;
+}
+
+img{
+  position: absolute;
+  z-index:5;
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
